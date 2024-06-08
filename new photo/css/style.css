@@ -1,0 +1,180 @@
+:root{
+  --color-text:white;
+}
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+
+  }
+ .section{
+  background: linear-gradient(rgba(0, 0, 0, 0.377),rgba(0, 0, 0, 0.399)),url(/img/blur/camera.jpeg);
+  min-height: 100vh;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+  nav ul li a{
+    color: var(--color-text);
+  }
+
+  ul {
+    list-style: none;
+  }
+  .container {
+    background-color:transparent;
+  }
+  .row {
+    width: 80%;
+    margin: auto;
+  }
+  .logo {
+    font-size: 1.5rem;
+  }
+  .order{
+color: #ffffff;  
+text-align: center;
+margin-left: 10px; 
+cursor: pointer; 
+
+  }
+  .navbar {
+    display: flex;
+    justify-content: space-between;
+    height: 50px;
+    align-items: center;
+  }
+  .navbar .main-menu {
+    display: flex;
+  }
+
+  .main-menu li a {
+    display: inline-block;
+    padding: 10px 20px;
+  }
+  
+  .menu-btn {
+    display: none;
+border-radius: 50%;
+height: 40px;
+width: 40px;
+    background: #ffffff09;
+  }
+
+.menu-btn:hover{
+  transition: all .6s;
+  background: #f2eeee90;
+  color: black;
+}
+
+
+.logo a{
+  color:var(--color-text) ;
+  font-style: italic;
+  font-size: 1.5rem;
+}
+.social a i{
+  color: var(--color-text);
+  margin: 2px;
+  font-size: 1.2rem;
+}
+ .text{
+  text-align: center;
+  position: relative;
+  top: 200px;
+ } 
+ .second{
+  font-size: 3rem;
+  margin-top: 16px;
+ }
+ button{
+  height: 40px;
+  width: 120px;
+  color: black;
+  border-radius: 4px;
+  margin: 3px;
+ }
+ .buttons .btn{
+  background: transparent;
+  border: 1px solid white;
+  color: #ffffff;
+ }
+
+ .buttons{
+  margin-top: 40px;
+ }
+ .container-about-info{
+  padding-top: 30px;
+  min-height: 100vh;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(0, 0, 0, 0.845)),url(/img/blur/onpaper.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover
+ }
+ .about-text{
+  display: flex;
+  align-items: center;
+  position: relative;
+  top: 50px;
+ justify-content: center;
+ }
+ .h2{
+  font-size: 1.4rem; color: white;
+  text-align: center;
+ }
+ .h1-text{
+  font-size: 3rem;
+width: 30%;
+position: relative;
+left: 230px;
+ }
+ .image{
+  height: 600px;
+  width: 500px;
+  background: linear-gradient(rgba(0,0,0,0.5),rgba(22, 3, 3, 0.653)),url(/img/revserve.jpeg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  opacity: 1;
+ }
+.daily-capture{
+  padding-top: 60px;
+  min-height: 29vh;
+  background:linear-gradient( rgba(30, 27, 27, 0.897),rgb(92, 91, 91),black);
+  background-position: center;
+  background-size: cover;
+background-repeat: no-repeat;
+}
+ .daily-quote{
+width: 40%;
+ }
+ .daily-text{
+  width: 40%;
+ }
+ .text-daily{
+  width: 56%;
+  font-size: 2.4rem;
+  color: white;
+margin-left: 100px;
+ }
+
+.responsive-section{
+  padding-top: 30px;
+  min-height: 60vh;
+}
+.responsive {
+  padding: 0 6px;
+  float: left;
+  width: 24.99999%;
+}
+div.gallery img {
+  width: 100%;
+  height: auto;
+}
+
+div.desc {
+  padding: 15px;
+  text-align: center;
+}
